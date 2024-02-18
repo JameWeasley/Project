@@ -42,6 +42,7 @@ body {
 
 .menu {
     display: flex;
+    margin: 0;
 }
 
 .menu li {
