@@ -6,10 +6,8 @@ document.addEventListener("DOMContentLoaded" , async () => {
     })
 
     if (respone.ok) {
-        console.log(respone);
         const responeData = await respone.text()
 
-        console.log(responeData);
     }
 })
 
