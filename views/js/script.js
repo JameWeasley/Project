@@ -50,3 +50,17 @@ function showPopupMenu() {
         showPopup.style.display = 'none';
     }
 }
+
+function success() {
+    swal.fire({
+        title: "Send message success!",
+        text: "You clicked the button",
+        icon: "success"
+    });
+}
+
+// Swal.fire({
+//     title: "Good job!",
+//     text: "You clicked the button!",
+//     icon: "success"
+//   });

@@ -145,3 +145,18 @@ footer {
     background-color: #343a40;
     text-align: center;
 }
+
+.card-body {
+    border: none;
+    border-radius: 15px !important;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0 ,0.5);
+}
+
+.modal-detail {
+    /* align-items: center;
+    text-align: center; */
+    border: 1px solid ;
+    background: #ddd;
+    width: 150px;
+    height: 100px;
+} 
