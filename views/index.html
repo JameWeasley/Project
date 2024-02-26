@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./calendar-07/css/calendar.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,12 @@
 
         <ul class="menu">
           <li><a href="#">Home</a></li>
+<<<<<<< Updated upstream:views/index.html
           <a href="login.html" class="btn btn-primary">Log in</a>
+=======
+          <li><a>{{Name}}</a></li>
+          <a href="./Login/login.html" class="btn btn-primary">Log in</a>
+>>>>>>> Stashed changes:home.html
           <!-- <button class="btn-log"></button> -->
         </ul>
       </div>
@@ -145,7 +151,7 @@
       <div class="col">
         <div class="collapse multi-collapse" id="multiCollapseExample1">
           <div class="card card-body">
-            <label for="">Name</label>
+            <label for="">{{Name}}</label>
             <textarea name="work" id="" class="h-auto p-2" cols="5" rows="5"></textarea>
             <div class="btn-submit">
               <button class="btn btn-success">Success</button>
