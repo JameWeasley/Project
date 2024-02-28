@@ -64,3 +64,18 @@ function success() {
 //     text: "You clicked the button!",
 //     icon: "success"
 //   });
+
+// const loginBtn = document.querySelector('#login-form-submit');
+// loginBtn.addEventListener("click",async function(){
+//     const response = await fetch("/login", {
+//         method: "POST",
+//         body: JSON.stringify({
+//             username: document.querySelector('#login-form-username').value,
+//             password: document.querySelector('#login-form-password').value
+//         })
+//     })
+//     if (response.ok) {
+//         const respondata = await response.json();
+//         console.log(response);
+//     }
+// })
