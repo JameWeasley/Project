@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("react-quill/dist/quill.snow.css");
+
+.bg {
+  min-height: 100vh;
+  height: 100%;
+  background: url(./bg.png);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
